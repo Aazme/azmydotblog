@@ -55,7 +55,7 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
+          <a style={{textDecoration: 'none'}} href={`https://twitter.com/${social?.twitter || ``}`}>
           Take a look at my Twitter 😁.
           </a>
         </p>
