@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
